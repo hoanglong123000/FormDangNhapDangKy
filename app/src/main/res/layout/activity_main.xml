@@ -16,102 +16,196 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.078"
+        app:layout_constraintVertical_bias="0.029"
         app:srcCompat="@drawable/iconandroid" />
 
-    <Button
-        android:id="@+id/Signinbtn"
-        android:layout_width="177dp"
-        android:layout_height="54dp"
-        android:backgroundTint="@color/teal_200"
-        android:fontFamily="sans-serif-black"
-        android:text="Đăng nhập"
+    <EditText
+        android:id="@+id/emailaddress"
+        android:layout_width="330dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
         android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.931"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.812" />
+        app:layout_constraintVertical_bias="0.8" />
 
     <TextView
-        android:id="@+id/passwordlbl"
-        android:layout_width="202dp"
-        android:layout_height="53dp"
+        android:id="@+id/emaillabel"
+        android:layout_width="239dp"
+        android:layout_height="30dp"
         android:gravity="center"
-        android:text="Mật khẩu"
+        android:text="Email"
         android:textColor="@color/white"
-        android:textSize="34sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.554" />
+        app:layout_constraintVertical_bias="0.722" />
 
     <EditText
-        android:id="@+id/passwordtxt"
-        android:layout_width="346dp"
-        android:layout_height="50dp"
+        android:id="@+id/confirmpasswordtxt"
+        android:layout_width="332dp"
+        android:layout_height="44dp"
         android:ems="10"
         android:inputType="textPassword"
         android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.665" />
+        app:layout_constraintVertical_bias="0.672" />
 
     <TextView
-        android:id="@+id/Namelbl"
-        android:layout_width="243dp"
-        android:layout_height="41dp"
+        android:id="@+id/passwordlabel"
+        android:layout_width="209dp"
+        android:layout_height="31dp"
         android:gravity="center"
-        android:text="Tên đăng nhập"
+        android:text="Xác định mật khẩu"
         android:textColor="@color/white"
-        android:textSize="34sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintHorizontal_bias="0.524"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.341" />
+        app:layout_constraintVertical_bias="0.592" />
 
     <EditText
-        android:id="@+id/nametxt"
-        android:layout_width="353dp"
-        android:layout_height="54dp"
+        android:id="@+id/registerpasswordtxt"
+        android:layout_width="337dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <TextView
+        android:id="@+id/passwordlabel2"
+        android:layout_width="141dp"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:text="Mật khẩu"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.444" />
+
+    <TextView
+        android:id="@+id/usernamelabel"
+        android:layout_width="191dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Tên đăng nhập "
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.309" />
+
+    <EditText
+        android:id="@+id/registerusername"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.672"
+        app:layout_constraintHorizontal_bias="0.544"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.435" />
+        app:layout_constraintVertical_bias="0.373" />
+
+    <RadioGroup
+        android:layout_width="97dp"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.889">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="92dp"
+            android:layout_height="44dp"
+            android:text="Nam"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="103dp"
+        android:layout_height="47dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.753"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888">
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="88dp"
+            android:layout_height="44dp"
+            android:text="Nữ"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    </RadioGroup>
 
     <TextView
-        android:id="@+id/registerlink"
-        android:layout_width="171dp"
-        android:layout_height="60dp"
+        android:id="@+id/backtoLoginLink"
+        android:layout_width="178dp"
+        android:layout_height="37dp"
         android:layout_marginEnd="124dp"
         android:layout_marginRight="124dp"
         android:clickable="true"
         android:linksClickable="false"
-        android:text="Link để đăng ký"
+        android:text="Quay lại trang"
         android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintHorizontal_bias="0.339"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.825" />
+        app:layout_constraintVertical_bias="0.962" />
 
+    <Button
+        android:id="@+id/registerbtn"
+        android:layout_width="141dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Đăng ký"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
 </android.support.constraint.ConstraintLayout>
 
